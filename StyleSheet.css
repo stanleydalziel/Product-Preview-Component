@@ -1,0 +1,139 @@
+    .attribution { 
+    font-size: 11px;
+    text-align: center; 
+    }
+
+    .attribution a {
+    color: hsl(228, 45%, 44%);
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .Flex-Box {
+        display: flex;
+        background-color: hsl(0, 0%, 100%); 
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+    }
+
+    .Flex-Box img {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 50%;
+        background-size: cover;
+    }
+
+    .Container-2 {
+        width: fit-content;
+        margin-left: 40px;
+        }
+
+    .Container-2 h5 {
+        color: hsl(228, 12%, 48%);
+        letter-spacing: 3 px;
+        font-family: Montserrat;
+        font-weight: 500;
+        letter-spacing: 4px;
+    }
+
+    .Container-2 h2 {
+        font-family: Fraunces;
+        font-weight: bolder;
+        font-size: 30px;
+    }
+
+    .Container-2 p {
+        font-family: Montserrat;
+        font font-weight: 700;
+        color: hsl(228, 12%, 48%);
+        line-height: 25px;
+
+    }
+
+    .prices {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .prices h1 {
+        color: hsl(158, 36%, 37%);
+        font-family: Fraunces;
+    }
+
+    .prices p {
+        padding-left: 20px;
+        padding-top: 20px;
+        text-decoration: line-through;
+    }
+
+    .Cart {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid darkgreen;
+        justify-content: center;
+        text-align: center;
+        margin-right: 25px;
+        width: 86%;
+        background-color: hsl(158, 36%, 37%);
+        border-radius: 10px;
+        cursor: pointer;    
+    }
+
+    .Cart:hover {
+    background-color: hsl(158, 36%, 21%);
+}
+
+    .Cart svg {
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+
+    .Cart p {
+        color: white;
+    }
+
+    html {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Container-1 img {
+        height: 100%;
+        width: 100%;
+    }
+
+    body {
+        background-color: hsl(30, 38%, 92%);
+
+        }
+
+@media (max-width: 700px) {
+    .Flex-Box {
+        display: grid;
+         grid-template-rows: auto;
+         width: 90%;
+         margin-top: 1rem;
+}
+    #Desktopimg {
+        display: none;
+    }
+
+    #Mobileimg {
+        width: 100%;
+        height: 150%;
+    }
+
+
+}
+
+@media (min-width: 701px) {
+
+    #Mobileimg {
+        display: none;
+    }
+}
